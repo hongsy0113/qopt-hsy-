@@ -17,10 +17,11 @@ Quantum circuit optimization with equality saturation
 binary:
 ```
 ./build
-./main.native -input benchmark/toy/teleport.qasm
+./main.native -input benchmarks/toys/teleport.qasm
+
 ```
 
 script:
 ```
-python3 run_opt.py benchmark/toy/teleport.qasm
+python3 run_opt.py benchmarks/toys/teleport.qasm
 ```
