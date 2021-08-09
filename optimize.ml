@@ -26,5 +26,5 @@ let x_propagation : program -> program
 *)
 
 let optimize : program -> program 
-=fun stmts -> stmts(*[Include ("test"); Decl(QReg("q", 1)); Qop(Uop(Gate("h", [], ["q", Some 1])))]*)
+=fun stmts -> [Include ("test"); Decl(QReg("q", 1)); Qop(Uop(Gate("h", [], ["q", Some 1])))]
  (* TODO *)
